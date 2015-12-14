@@ -58,7 +58,7 @@ a {
 
 .logo a{
 	float: left;
-	background: url("/img/practice/trans_logo.png");
+	background: url("img/practice/trans_logo.png");
 	text-indent: 100%;
 	width:250px;
 	height: 49px;
