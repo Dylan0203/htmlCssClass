@@ -1,0 +1,139 @@
+/*
+practice.css
+*/
+
+body{
+	font-family: arial, sans-serif;
+	font-size: 15px;
+}
+
+a {
+	text-decoration: none;
+}
+
+.header{
+	background: #2a2e31;
+	overflow: hidden;
+	height:40px;
+	line-height: 2.5em;
+}
+
+.header a{
+	color: gray;
+}
+
+.header a:hover{
+	color: aliceblue;
+}
+
+.social-icon{
+	float: left;
+}
+
+.social-icon li{
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.sub-nav{
+	float: right;
+}
+
+.sub-nav li{
+	display: inline-block;
+	font-size: .8em;
+	margin: 0 5px;
+	text-shadow: 2px 2px 2px black;
+}
+
+.header2{
+	background: #404549;
+	overflow: hidden;
+	line-height: 3em;
+}
+
+.header2 .container{
+	
+}
+
+.logo a{
+	float: left;
+	background: url("/img/practice/trans_logo.png");
+	text-indent: 100%;
+	width:250px;
+	height: 49px;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.menu{
+	float: left;
+	text-shadow: #2a2e31;
+	margin-left: 60px;
+	
+}
+
+.menu li{
+	display: inline;
+	text-shadow: 2px 2px 2px black;
+	font-size: .9em;
+	margin: 0 20px;
+}
+
+.menu a{
+	color: #c0c0c0;	
+}
+
+.menu a:hover{
+	color: aliceblue;
+}
+
+.search-from {
+	float: right;
+}
+
+.container{
+	width:1024px;
+	margin: 0 auto;
+}
+
+.img-caseshow{
+	max-width: 100%;
+	overflow: hidden;
+	clear: both;
+}
+
+.img-caseshow h2 a {
+	color: aliceblue;
+	text-shadow: 2px 2px 2px black;
+	position: relative;
+	top: -25px;
+	left: 20px ;
+}
+
+.thumb-big {
+	width: 50%;
+	float: left;
+}
+
+.thumb-big img {
+	margin: .5%;
+	max-width: 99%;
+}
+
+.thumb-square {
+	width: 50%;
+	float: right;
+}
+
+.thumb-square figure{
+	max-width: 49%;
+	margin: .5%;
+	float: left;
+}
+
+.thumb-square img{
+	max-height: 142px;
+	max-width: 99%;
+	margin: .5%;
+}

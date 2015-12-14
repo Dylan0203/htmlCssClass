@@ -1,0 +1,105 @@
+html{
+    background-color: #afafaf;
+}
+
+body a {
+    text-decoration: none;
+}
+
+body a:hover {
+    color: aliceblue;
+}
+
+body p{
+    color: red;
+     margin: 20px auto;
+}
+
+span {
+    color: green;
+}
+
+.whatEver {
+    color: aliceblue
+}
+
+h1{
+    font-size: 4em
+}
+
+nav{
+    background-color: #aa37ff;
+    color: aliceblue;
+    list-style:none;
+}
+
+nav ol li ul li ul{
+    color: aqua
+}
+
+table{
+    text-align: center;
+    margin: 20px auto;
+}
+
+form {
+
+    background-color: rgba(0, 255, 255, 0.39)
+}
+
+a,a:link,a:visited {
+	color:#59ff48;	
+}
+
+a:focus{
+	font-size: 1.1em;
+}
+
+
+/********
+latestPost
+********/
+
+.latest-post{
+	border-style: dotted;
+	border-color: #90ffff;
+	border-width: 7px;
+	max-width: 50%;
+	padding: 2%;
+	border-radius: 30px;
+}
+
+.side-title{
+	text-align: center;
+	font-size: 2em;
+}
+
+.box img{
+	max-width: 40%;
+	padding: 2% 2%;
+	float: left;
+}
+
+.latest-post-title{
+	float: left;
+	width: 100%;
+	text-align: center;
+	margin: 20% 0 5%;
+}
+
+.latest-post-date{
+	font-size: .9em;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.box {
+	border-top: solid white;
+	overflow: hidden;
+}
+
+.box2 {
+width: 50%;
+	float: right;
+}
