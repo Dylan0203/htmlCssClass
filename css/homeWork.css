@@ -1,23 +1,12 @@
 body{
 	font-size: 1em;
 	font-family: 'Montserrat', sans-serif;
-	/*font-family: 'Roboto', sans-serif;*/
 }
 
 .header{
 	background:#141626;
 	color:aliceblue;
 	overflow: hidden;
-}
-
-.container{
-	width:1024px;
-	margin:0 auto;
-	overflow: hidden;
-}
-
-.header + .container{
-	margin: 60px auto;
 }
 
 .header .logo{
@@ -31,6 +20,16 @@ body{
 	display:inline;
 	line-height: 80px;
 	margin: 0 40px;
+}
+
+.container{
+	width:1024px;
+	margin:0 auto;
+	overflow: hidden;
+}
+
+.header + .container{
+	margin: 60px auto;
 }
 
 .articles{
@@ -127,9 +126,11 @@ h3 + ul li{
 .more-info .box p{
 	font-size: .8em;
 	line-height: 1.5em;
+	display: block;
 }
 
 .more-info .box ol{
+	display: inline-block;
 	margin:40px 0 10px 25px;
 	list-style-type:circle;
 	line-height: 1.5em;
@@ -152,23 +153,25 @@ h3 + ul li{
 	margin: .5em;
 }
 
+
+/*search box*/
+
 .search{
 	margin:2em;
 }
 
 .search input{
-	width:100%;
+	width:90%;
 	height: 30px;
 	font-size: 1.5em;
 	border-radius: 10px;
 }	
 
-/*search box*/
 #filtersubmit {
     position: relative;
     z-index: 1;
-    left: 210px;
-    top: -32px;
+    right:40px;
+	top:2px;
     color: #7B7B7B;
     cursor:pointer;
     width: 0;
@@ -285,4 +288,85 @@ h3 + ul li{
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
 .social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
- 
+
+	/*menu switch*/
+
+ #menu-switch{
+    display:none;
+  } 
+
+
+@media only screen and (max-width: 992px){
+	
+	.header .logo{
+		margin-left: 1em;
+		float:none;
+		clear: both;
+	}
+
+	.header .menu li{
+
+		float: none;
+		clear: both;
+		display:inline-block;
+		line-height: 5em;
+		width: 90%;
+
+	}
+
+	.header{
+		background:#141626;
+		color:aliceblue;
+
+	}
+
+	.container{
+		max-width:992px;
+		width:100%;
+		margin:0 auto;
+	}
+
+	.articles{
+		width:95%;
+		margin:0 2.5%;
+	}
+
+	.sidebar{
+		width:95%;
+		margin:0 2.5%;
+	}
+
+	.more-info .box{
+		width:95%;
+		margin:0 2.5%;
+	}	
+	
+	.social{
+		display: inline-block;
+		overflow: hidden;
+		line-height: 1em;
+	}
+	
+	.menu {
+	display:none;
+	}
+
+	/*checkbox:checked*/  
+	#menu-switch:checked + .menu {
+	display:block;
+	} 
+	
+	label span{
+		font-size: 2em;
+		background: gray;
+		line-height: 3em;
+		text-align: center;
+	}
+}
+
+/*md up*/
+@media only screen and (min-width: 992px){
+  .label-switch{
+    display:none;
+  }
+}
