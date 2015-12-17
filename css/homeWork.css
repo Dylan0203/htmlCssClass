@@ -358,9 +358,22 @@ h3 + ul li{
 	
 	label span{
 		font-size: 2em;
+		text-shadow: 2px 2px 2px black;
+	}
+	.label-switch{
+		width: 90%;
+		display:block;
+		margin: 10px auto;
 		background: gray;
-		line-height: 3em;
-		text-align: center;
+		line-height: 2.5em;
+		border-radius: 5px;
+	}
+	.label-switch i{
+		float: right;
+			font-size: 3em;
+		line-height: .9em;
+		margin: 0 1%;
+		text-shadow: 2px 2px 2px black;
 	}
 }
 
